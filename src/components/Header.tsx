@@ -6,7 +6,7 @@ export function Header() {
         <header className="header">
             <div className="header-content">
                 <nav>
-                    <div className="logo">  <span>testLab</span></div>
+                    <div className="logo">  <p>testLab</p></div>
                     <ul>
                         <li><a href="#how-it-works">Как это работает</a></li>
                         <li><a href="#testimonials">3-й блок</a></li>
@@ -15,7 +15,7 @@ export function Header() {
                     </ul>
                 </nav>
                 <div className="hero">
-                    <h1>Говорят, никогда не поздно<br></br>сменить профессию</h1>
+                    <h1>Говорят, никогда не поздно<br />сменить профессию</h1>
                     <p>Сделай крутое тестовое задание и у тебя получится</p>
                     <button>Проще простого!</button>
                 </div>

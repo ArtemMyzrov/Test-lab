@@ -5,6 +5,7 @@ import { FAQ } from './components/Faq';
 import { Header } from './components/Header';
 import { HowItWorks } from './components/HowItWorks';
 import { Testimonials } from './components/Testimonials';
+import { ThirdBlock } from './components/ThirdBlock';
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <>
       <Header />
       <HowItWorks />
+      <ThirdBlock />
       <Testimonials />
       <FAQ />
       <Form />
