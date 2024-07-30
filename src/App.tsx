@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Footer } from './components/footer';
+import { Footer } from './components/Footer';
 import { Form } from './components/Form';
 import { FAQ } from './components/Faq';
 import { Header } from './components/Header';
