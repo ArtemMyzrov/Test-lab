@@ -1,19 +1,27 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { MobileMenu } from './MobileMenu';
 import '../App.css';
 
 export function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
+    const closeMenu = () => {
+        setIsMenuOpen(false);
+    };
+
     return (
         <header className="header">
+            <MobileMenu isOpen={isMenuOpen} onClose={closeMenu} />
             <div className="header-content">
                 <nav>
                     <div className="logo"><p>testLab</p></div>
-                    <div className={`menu-icon ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
+                    <div
+                        className={`menu-icon ${isMenuOpen ? 'open' : ''}`}
+                        onClick={toggleMenu}
+                    >
                         <div className="bar"></div>
                         <div className="bar"></div>
                         <div className="bar"></div>
