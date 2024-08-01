@@ -7,19 +7,15 @@ import { HowItWorks } from './components/HowItWorks';
 import { Testimonials } from './components/Testimonials';
 import { ThirdBlock } from './components/ThirdBlock';
 
-
-
 function App() {
-
-
   return (
     <>
       <Header />
       <HowItWorks />
       <ThirdBlock />
       <Testimonials />
-      <FAQ />
-      <Form />
+      {/* <FAQ /> */}
+      {/* <Form /> */}
       <Footer />
       Sss
     </>

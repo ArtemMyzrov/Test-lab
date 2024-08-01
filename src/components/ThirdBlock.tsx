@@ -1,7 +1,7 @@
 export function ThirdBlock() {
     return (
         <section id="third-block">
-            <div className="container">
+            <div className='container'>
                 <div className="third-block">
                     <div className="third-info">
                         <h2>Круто, ты дошел до третьего блока</h2>
@@ -14,8 +14,8 @@ export function ThirdBlock() {
                             </span>
                         </div>
                     </div>
-                    <div>
-                        <img src="/public/third-block.svg" alt="Прочитай задание внимательно" />
+                    <div className="third-wrap-img">
+                        <img className="third-img" src="/public/third-block.svg" alt="Прочитай задание внимательно" />
                     </div>
                 </div>
             </div>
