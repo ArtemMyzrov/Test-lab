@@ -11,7 +11,12 @@ export function Header() {
     const closeMenu = () => {
         setIsMenuOpen(false);
     };
-
+    const scrollToForm = () => {
+        const element = document.getElementById('form');
+        if (element) {
+            element.scrollIntoView();
+        }
+    };
     return (
         <header className="header">
             <MobileMenu isOpen={isMenuOpen} onClose={closeMenu} />
@@ -38,7 +43,7 @@ export function Header() {
                         <h1 className="hero-title">Говорят, никогда не поздно<br />сменить профессию</h1>
                         <p>Сделай крутое тестовое задание и у тебя получится</p>
                     </div>
-                    <button>Проще простого!</button>
+                    <button className='hero-btn' onClick={scrollToForm}>Проще простого!</button>
                 </div>
             </div>
         </header>

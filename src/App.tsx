@@ -15,9 +15,8 @@ function App() {
       <ThirdBlock />
       <Testimonials />
       {/* <FAQ /> */}
-      {/* <Form /> */}
+      <Form />
       <Footer />
-      Sss
     </>
   )
 }

@@ -1,8 +1,11 @@
 export function Footer() {
     return (
-        <div>
-            <p>© 2021 Лаборатория интернет</p>
-        </div>
+        <>
+            <div className='pre-footer'></div>
+            <div className='footer'>
+                <p>© 2021 Лаборатория интернет</p>
+            </div>
+        </>
     );
 };
 
