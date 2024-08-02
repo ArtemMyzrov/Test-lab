@@ -16,7 +16,7 @@ export function ThirdBlock() {
                         </div>
                     </div>
                     <div className="third-wrap-img">
-                        <img className="third-img" src="/public/third-block.svg" alt="Прочитай задание внимательно" />
+                        <img className="third-img" src="/third-block.svg" alt="Прочитай задание внимательно" />
                     </div>
                 </div>
             </div>

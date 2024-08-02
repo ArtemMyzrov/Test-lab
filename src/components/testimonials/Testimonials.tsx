@@ -132,7 +132,7 @@ export function Testimonials() {
                     </div>
                     <div className="pagination">
                         <button className="arrow-button left" onClick={handlePrevClick}>
-                            <img src="public/arrow-slider.svg" alt="arrow" className="arrow-icon" />
+                            <img src="/arrow-slider.svg" alt="arrow" className="arrow-icon" />
                         </button>
                         {Array.from({ length: Math.ceil(testimonialsData.length / itemsPerPage) }).map((_, index) => (
                             <span
@@ -142,7 +142,7 @@ export function Testimonials() {
                             ></span>
                         ))}
                         <button className="arrow-button right" onClick={handleNextClick}>
-                            <img src="public/arrow-slider.svg" alt="arrow" className="arrow-icon" />
+                            <img src="/arrow-slider.svg" alt="arrow" className="arrow-icon" />
                         </button>
                     </div>
                 </div>
