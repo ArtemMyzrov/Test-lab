@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
-import { Footer } from './components/Footer';
-import { Form } from './components/Form';
-import { FAQ } from './components/Faq';
-import { Header } from './components/Header';
-import { HowItWorks } from './components/HowItWorks';
-import { Testimonials } from './components/Testimonials';
-import { ThirdBlock } from './components/ThirdBlock';
+import { Footer } from './components/footer/Footer';
+import { Form } from './components/form/Form';
+import { Header } from './components/header/Header';
+import { HowItWorks } from './components/works/HowItWorks';
+import { Testimonials } from './components/testimonials/Testimonials';
+import { ThirdBlock } from './components/third/ThirdBlock';
 
 function App() {
   return (
@@ -14,7 +12,6 @@ function App() {
       <HowItWorks />
       <ThirdBlock />
       <Testimonials />
-      {/* <FAQ /> */}
       <Form />
       <Footer />
     </>

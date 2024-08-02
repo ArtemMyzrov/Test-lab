@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '../redux/store/store';
-import { setName, setPhone, setAgreed } from '../redux/formSlice';
+import { RootState } from '../../redux/store/store';
+import { setName, setPhone, setAgreed } from '../../redux/formSlice';
 
 export function Form() {
     const dispatch = useDispatch();

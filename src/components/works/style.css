@@ -1,0 +1,42 @@
+.step {
+  text-align: left;
+}
+.step-image {
+  width: 72px;
+}
+.step h3 {
+  margin: 16px auto 4px auto;
+}
+#how-it-works {
+  background-color: #fff;
+  text-align: center;
+}
+
+#how-it-works h2 {
+  font-size: 2rem;
+  color: black;
+  margin: 80px auto 60px auto;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 56px;
+}
+span {
+  color: grey;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 24px;
+}
+.info-text-item {
+  font-size: 16px;
+  line-height: 28px;
+  color: grey;
+}
+.steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+.step {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,4 +1,4 @@
-import '../App.css'
+
 interface MobileMenuProps {
     isOpen: boolean;
     onClose: () => void;
