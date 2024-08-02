@@ -68,7 +68,6 @@ export function Testimonials() {
     const [itemsPerPage, setItemsPerPage] = useState<number>(3);
 
     useEffect(() => {
-        // Функция для обновления количества карточек на странице в зависимости от ширины экрана
         const handleResize = () => {
             if (window.innerWidth <= 375) {
                 setItemsPerPage(1);
@@ -78,21 +77,14 @@ export function Testimonials() {
                 setItemsPerPage(3);
             }
         };
-
-        // Установить начальное количество карточек при загрузке
         handleResize();
-
-        // Добавить обработчик события изменения размера окна
-        window.addEventListener('resize', handleResize);
-
-        // Удалить обработчик события при размонтировании компонента
         return () => {
             window.removeEventListener('resize', handleResize);
         };
     }, []);
 
     useEffect(() => {
-        // Пересчитать текущий индекс при изменении количества карточек на странице
+
         setCurrentIndex(0);
     }, [itemsPerPage]);
 
