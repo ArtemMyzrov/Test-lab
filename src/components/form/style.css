@@ -1,0 +1,66 @@
+#form h2 {
+  text-align: center;
+  margin: 56px auto 32px auto;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 56px;
+}
+#form .input {
+  width: 384px;
+  height: 64px;
+  background-color: rgba(246, 248, 250, 1);
+  border: none;
+  padding: 16px;
+  font-size: 18px;
+  line-height: 32px;
+  outline: none;
+}
+.wrap-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrap-input {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 30px;
+}
+.form-btn {
+  color: #fff;
+  width: 384px;
+  height: 64px;
+  background-color: rgba(42, 108, 234, 1);
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.wrap-check {
+  display: flex;
+}
+.wrap-check label {
+  margin-right: 25px;
+  width: 384px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+.check {
+  width: 24px;
+  height: 24px;
+  accent-color: #aaa;
+  cursor: pointer;
+}
+.error-message {
+  margin-top: 10px;
+  text-align: center;
+  color: red;
+}
+.success-message {
+  margin-top: 10px;
+  text-align: center;
+  color: blue;
+}

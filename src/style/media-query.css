@@ -1,0 +1,202 @@
+@media (max-width: 1200px) {
+  .hero p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    background-image: url('/cover768.svg');
+    width: auto;
+  }
+  .menu-header .logo p {
+    color: black;
+  }
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .menu-header {
+    padding-left: 30px;
+  }
+  .menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 0;
+    transition: 0.3s;
+    display: flex;
+  }
+  .mobile-menu,
+  .menu-list {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+  }
+  nav .menu-icon {
+    display: flex;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-header .logo::before {
+    background-color: grey;
+  }
+  .menu-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    line-height: 32px;
+    display: block;
+  }
+  .hero {
+    width: 472px;
+  }
+  .hero p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .hero h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .step {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .third-block h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .third-block {
+    gap: 30px;
+  }
+  .third-img {
+    max-width: 100%;
+  }
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .testimonials {
+    overflow: hidden;
+  }
+  .arrow-button {
+    display: none;
+  }
+  #form .input {
+    max-width: 352px;
+  }
+
+  .form-btn {
+    max-width: 352px;
+  }
+  .wrap-check label {
+    max-width: 352px;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .steps {
+    display: flex;
+    flex-direction: column;
+  }
+  .step {
+    flex-direction: row;
+  }
+  .container {
+    max-width: 340px;
+    width: 100%;
+    padding: 0 4px;
+  }
+  .third-block {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .third-block h2 {
+    margin-bottom: 0;
+  }
+  .third-info {
+    text-align: center;
+  }
+  .third-info-text {
+    margin-top: 0px;
+  }
+  .hero {
+    width: 280px;
+  }
+  .hero h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  #how-it-works h2 {
+    color: black;
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .testimonials {
+    overflow: hidden;
+  }
+  .arrow-button {
+    display: none;
+  }
+  #form .input {
+    width: 343px;
+  }
+  #form h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .wrap-input {
+    flex-direction: column;
+  }
+  .form-btn {
+    max-width: 343px;
+  }
+  .wrap-check label {
+    margin: 0px !important;
+    max-width: 343px;
+  }
+  .wrap-check {
+    gap: 15px;
+    flex-direction: column;
+  }
+  #form .input {
+    max-width: 343px;
+  }
+  #form h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 320px) {
+  #form .input {
+    max-width: 280px;
+  }
+  .wrap-check label {
+    margin: 0px !important;
+    max-width: 280px;
+  }
+  .form-btn {
+    max-width: 280px;
+  }
+  #form h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}

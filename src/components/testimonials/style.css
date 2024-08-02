@@ -1,0 +1,100 @@
+.avatar {
+  width: 44px;
+}
+.avatar-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+#testimonials {
+  background-color: rgba(246, 248, 250, 1);
+  position: relative;
+  padding-bottom: 45px;
+}
+
+.testimonials-container {
+  position: relative;
+  overflow: hidden;
+}
+
+#testimonials .container .h2 {
+  margin: 33px auto;
+  padding-top: 33px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 600;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.testimonial-card {
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 350px;
+  height: 316px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.arrow-button {
+  background: none;
+  width: 32px;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  top: 50%;
+  position: absolute;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.arrow-button :hover {
+  color: rgba(42, 108, 234, 1);
+  transform: scale(1.5);
+}
+.arrow-button.left:hover .arrow-icon {
+  content: url('/arrow-slider-hover.png');
+  transform: rotate(180deg);
+}
+.arrow-button.right:hover .arrow-icon {
+  content: url('/arrow-slider-hover.png');
+  transform: rotate(180deg);
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+  transform: rotate(180deg);
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #333;
+}
