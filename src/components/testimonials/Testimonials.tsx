@@ -17,7 +17,7 @@ const testimonialsData: Testimonial[] = [
                 широкие возможности для анализа существующих 
                 паттернов поведения. В своём стремлении 
                 улучшить пользовательский опыт мы`,
-        img: '/avatar-1.svg'
+        img: 'avatar-1.webp'
     },
     {
         name: 'Иван',
@@ -29,7 +29,7 @@ const testimonialsData: Testimonial[] = [
                 улучшить пользовательский опыт мы упускаем, 
                 что активно развивающиеся страны третьего 
                 мира призваны к ответу.`,
-        img: '/avatar-2.svg'
+        img: 'avatar-2.webp'
     },
     {
         name: 'Артем Коренюков',
@@ -38,28 +38,28 @@ const testimonialsData: Testimonial[] = [
                 перспективное планирование предоставляет 
                 широкие возможности для анализа существующих 
                 паттернов поведения.`,
-        img: '/avatar-3.svg'
+        img: 'avatar-3.webp'
     },
     {
         name: 'Константин Михаил Павлович',
         location: 'Санкт-Петербург',
         text: `Каждый за меня понимает сомнению право 
                 направлений.`,
-        img: '/avatar-1.svg'
+        img: 'avatar-1.webp'
     },
     {
         name: 'Иванов',
         location: 'Санкт-Петербург',
         text: `Каждый за меня понимает сомнению право 
                 направлений.`,
-        img: '/avatar-2.svg'
+        img: 'avatar-2.webp'
     },
     {
         name: 'Коренюков',
         location: 'Самара',
         text: `Каждый за меня понимает сомнению право 
                 направлений.`,
-        img: '/avatar-3.svg'
+        img: 'avatar-3.webp'
     }
 ];
 
@@ -124,7 +124,7 @@ export function Testimonials() {
                     </div>
                     <div className="pagination">
                         <button className="arrow-button left" onClick={handlePrevClick}>
-                            <img src="/arrow-slider.svg" alt="arrow" className="arrow-icon" />
+                            <img src="arrow-slider.svg" alt="arrow" className="arrow-icon" />
                         </button>
                         {Array.from({ length: Math.ceil(testimonialsData.length / itemsPerPage) }).map((_, index) => (
                             <span
@@ -134,7 +134,7 @@ export function Testimonials() {
                             ></span>
                         ))}
                         <button className="arrow-button right" onClick={handleNextClick}>
-                            <img src="/arrow-slider.svg" alt="arrow" className="arrow-icon" />
+                            <img src="arrow-slider.svg" alt="arrow" className="arrow-icon" />
                         </button>
                     </div>
                 </div>

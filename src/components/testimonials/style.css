@@ -71,11 +71,11 @@
   transform: scale(1.5);
 }
 .arrow-button.left:hover .arrow-icon {
-  content: url('/arrow-slider-hover.png');
+  content: url('/arrow-slider-hover.svg');
   transform: rotate(180deg);
 }
 .arrow-button.right:hover .arrow-icon {
-  content: url('/arrow-slider-hover.png');
+  content: url('/arrow-slider-hover.svg');
   transform: rotate(180deg);
 }
 .left {

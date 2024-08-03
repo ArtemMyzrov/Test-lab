@@ -16,13 +16,13 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             </div>
             <div className="menu-divider"></div>
             <ul className="menu-list">
-                <li><a href="#how-it-works" onClick={handleMenuItemClick}>Как это работает</a><img src="/arrow-menu.svg" alt="" /></li>
+                <li><a href="#how-it-works" onClick={handleMenuItemClick}>Как это работает</a><img src="arrow-menu.svg" alt="" /></li>
                 <div className="menu-divider"></div>
-                <li><a href="#testimonials" onClick={handleMenuItemClick}>3-й блок</a><img src="/arrow-menu.svg" alt="" /></li>
+                <li><a href="#testimonials" onClick={handleMenuItemClick}>3-й блок</a><img src="arrow-menu.svg" alt="" /></li>
                 <div className="menu-divider"></div>
-                <li><a href="#faq" onClick={handleMenuItemClick}>Вопросы и ответы</a><img src="/arrow-menu.svg" alt="" /></li>
+                <li><a href="#faq" onClick={handleMenuItemClick}>Вопросы и ответы</a><img src="arrow-menu.svg" alt="" /></li>
                 <div className="menu-divider"></div>
-                <li><a href="#form" onClick={handleMenuItemClick}>Форма</a><img src="/arrow-menu.svg" alt="" /></li>
+                <li><a href="#form" onClick={handleMenuItemClick}>Форма</a><img src="arrow-menu.svg" alt="" /></li>
             </ul>
         </nav>
     );
